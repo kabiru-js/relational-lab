@@ -1,22 +1,85 @@
-# Day 1 — SQL SYNTAX
+# Day 1 — SQL Foundations
 
-## What I Did
-i used the select statement to return the contents of a table 
+## 📅 Date
+July 19, 2026
 
-## Core Concept (in my own words)
-sql statements are not case sensitive and most of the actions that one intends to perform in a database uses sql statements 
+---
 
+## 🎯 Objective
+Understand how to retrieve, filter, and manipulate data using basic SQL queries.
 
-## Syntax / Pattern
+---
 
-[ACTION][Clause] [PARAMETER]
+## 🧠 What I Learned (In Practice)
 
-## Example I Wrote
-select * from university
+- How to retrieve data using `SELECT`
+- How to filter data using `WHERE`
+- How to sort results using `ORDER BY`
+- How to combine conditions using `AND`, `OR`, `NOT`
+- How to modify data using `INSERT`, `UPDATE`, `DELETE`
+- How NULL behaves differently from normal values
 
-## What This Actually Does
+---
 
-the select query returns the content of a table, row, coulumn etc, in literal terms its picking something from a table 
-* : this asterik is to select everything from the table with no exception 
-university : the table itself.
+## ⚙️ Queries I Ran
+
+👉 See: `../queries/day1_basics.sql`
+
+---
+
+## 🧠 Key Concepts (My Understanding)
+
+### SELECT
+Used to pull data from a table.
+
+### WHERE
+Filters rows based on conditions.
+
+### AND vs OR
+- `AND` = all conditions must be true
+- `OR` = at least one must be true
+
+### NULL
+Not equal to anything — must use `IS NULL`
+
+---
+
+## ⚠️ Mistakes / Gotchas
+
+- Forgetting parentheses when combining `AND` + `OR`
+- Treating `NULL` like a normal value (`=` doesn’t work)
+- Running `DELETE` without `WHERE` (dangerous)
+
+---
+
+## ❌ What I Can’t Do Yet
+
+- Aggregations (`SUM`, `COUNT`)
+- Grouping (`GROUP BY`)
+- Joins (combining tables)
+- Subqueries
+
+---
+
+## 🚀 Next Step (Day 2)
+
+Start building:
+
+### 📌 Finance Tracker DB
+
+- Create tables: Users, Categories, Transactions
+- Insert real sample data
+- Practice filtering + sorting on real data
+
+---
+
+## 💡 Insight
+
+SQL isn’t about syntax — it’s about **asking better questions about data**.
+
+---
+
+## 🧠 Mindset
+
+> “Don’t learn SQL. Use SQL to build systems.”
 
